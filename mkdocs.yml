@@ -1,8 +1,48 @@
-site_name: My Docs
+site_name: PHONGNL
 theme:
   name: material
+  # custom_dir: overrides
+  # favicon: images/favicon.png
+  # language: en
+  # icon:
+  # logo:
+  features:
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - announce.dismiss
+    - navigation.footer
+    - navigation.indexse
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: black
+      accent: deep green
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: deep green
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
 markdown_extensions:
-  - def_list
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.tasklist:
       custom_checkbox: true
   - attr_list
@@ -23,5 +63,15 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
+  - toc:
+      permalink: true
+copyright: Copyright &copy; 2024 phongnl
 extra_css:
   - extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: simple/youtube
+    # - :fontawesome-brands-youtube:{ .youtube }
+    - icon: simple/oracle
