@@ -75,3 +75,9 @@ extra:
     - icon: simple/youtube
     # - :fontawesome-brands-youtube:{ .youtube }
     - icon: simple/oracle
+nav:
+  - ODI:
+    - 1.Introduction to Integration and Administration: ODI/1.Introduction to Integration and Administration.md
+    - 2.Administering ODI Repositories.md: ODI/2.Administering ODI Repositories.md
+    - 3.ODI Topology Concepts.md: ODI/3.ODI Topology Concepts.md
+
