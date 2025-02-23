@@ -21,8 +21,9 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 Text can be {--deleted--} and replacement text {++added++}. This can also be
 combined into {~~one~>a single~~} operation. {==Highlighting==} is also
 possible {>>and comments can be added inline<<}.
-{==Nguyễn Lê Phong==} 
+{==Nguyễn Lê Phong==}
 
+{==Đoàn Thị Bảo Trâm==}
 {==
 
 Formatting can also be applied to blocks by putting the opening and closing
